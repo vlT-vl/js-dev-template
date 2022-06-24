@@ -1,0 +1,52 @@
+/* template.css                                                              */
+/*****************************************************************************/
+
+.Template {
+  text-align: center;
+}
+
+.ReactLogo {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+.Template-header {
+  background-color: #212121;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Version {
+  font-size: 12px;
+  font-weight: bold;
+  color: #aaaaaa;
+}
+
+.Build {
+  font-size: 12px;
+  font-weight: bold;
+  color: #aaaaaa;
+}
+
+.vlTlogo {
+  width: 17%;
+  height: 17%;
+  margin-top: 20%;
+}
+
+.Copyright {
+  font-size: 15px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
