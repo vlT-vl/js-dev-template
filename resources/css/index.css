@@ -1,0 +1,44 @@
+/* index.css                                                                  */
+/*----------------------------------------------------------------------------*/
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vh;
+  background-color: #212121;
+  color: white;
+}
+
+#app {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.disable-select {
+    user-select: none;
+   -webkit-user-select: none;
+   -khtml-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+}
+
+/* Scrollbar style */
+/*-----------------*/
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 7px;
+  background-color: #282828;
+}
+::-webkit-scrollbar {
+  width: 9px;
+  height: 10px;
+  background-color: #282828;
+  display: none;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 7px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #363636;
+}
