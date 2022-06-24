@@ -1,0 +1,15 @@
+{
+  "name": "node-cli-template",
+  "version": "0.0.1",
+  "build": "R001-24062022",
+  "description": "node-cli-template",
+  "type": "module",
+  "author": "Veronesi Lorenzo © 2022 vlT - vl.TECH",
+  "license": "MIT",
+  "bin": {
+    "node-cli": "./js/cli.js"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1"
+  }
+}
